@@ -1,0 +1,1 @@
+﻿Read http://www.oliver-lohmann.me/a-very-basic-asp-net-web-api-single-page-application-template/ for more information.

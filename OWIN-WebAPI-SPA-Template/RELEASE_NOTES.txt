@@ -1,0 +1,15 @@
+﻿V1.3:
+Moved to Visual Studio 2015 and bumped packages versions. Switched to OWIN Host as default. 
+If you want to use IIS or IIS Express, you need to install the System.Web Host in addition.
+
+V1.2:
+Fixed an issue with the NuGet hint path that occurred when you de-selected "Create directory for solution".
+Made the template ready to use in offline scenarios by adding the NuGet packages to the VSIX.
+
+V1.1:
+Removed superfluous NuGet packages and updated JSON.NET to latest version.
+Now generating a proper project GUID for each activation of the template.
+Now generating a random IIS Express port for each activation of the template.
+
+V1.0: 
+Initial release.

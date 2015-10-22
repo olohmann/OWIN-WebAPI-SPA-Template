@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="OWIN_ASPNET_WebAPI_SPA_Template..a1de0659-b96e-4bb9-ace1-43b52f776a2c" Version="1.3" Language="en-US" Publisher="Oliver Lohmann" />
+    <DisplayName>OWIN ASP.NET WebAPI SPA Template</DisplayName>
+    <Description xml:space="preserve">A custom C# web project template that is inspired by NodeJS. It is based completely on OWIN and Web API 2.2. It uses an OWIN middleware for static file handling and does not rely on IIS at all. This has some nice side effects like being able to declare a specific folder in the project where all my static content (i.e. the SPA) resides. There are no JavaScript libraries or frameworks included in the template. It provides you a skeleton that can be extended with modules from NuGet or Bower to your needs.</Description>
+    <MoreInfo >http://www.oliver-lohmann.me/a-very-basic-asp-net-web-api-single-page-application-template/</MoreInfo>
+    <License>License.MIT.txt</License>
+    <GettingStartedGuide>README.txt</GettingStartedGuide>
+    <ReleaseNotes>RELEASE_NOTES.txt</ReleaseNotes>
+    <Icon>Web.png</Icon>
+    <PreviewImage>Screenshot.png</PreviewImage>
+    <Tags>ASP.NET;WebAPI;OWIN;SPA;SingePageApplications;</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[12.0]" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="WebApiProjectTemplate" d:TargetPath="|WebApiProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />    
+  </Assets>
+</PackageManifest>
